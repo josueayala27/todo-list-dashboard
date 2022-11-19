@@ -1,4 +1,9 @@
-// https://v3.nuxtjs.org/api/configuration/nuxt.config
-export default defineNuxtConfig({
+import svgLoader from 'vite-svg-loader';
 
+export default defineNuxtConfig({
+  css: ['@/assets/css/main.css', '@/assets/css/tailwind.css'],
+  modules: ['@nuxtjs/tailwindcss'],
+  vite: {
+    plugins: [svgLoader()]
+  }
 })
