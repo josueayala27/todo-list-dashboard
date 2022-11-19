@@ -10,3 +10,9 @@
     <TaskItem title="Dashboard, mobile, and web DS"></TaskItem>
   </TaskParent>
 </template>
+
+<script setup>
+const tasks = reactive([
+  { title: "In progress" }
+])
+</script>

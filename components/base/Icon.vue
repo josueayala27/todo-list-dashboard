@@ -4,5 +4,5 @@
 
 <script setup>
 import magnifyingGlass from '@/assets/svg/magnifying-glass.svg?raw';
-import ellipsisHorizontal from '@/assets/svg/mellipsis-horizontal.svg?raw';
+import ellipsisHorizontal from '@/assets/svg/ellipsis-horizontal.svg?raw';
 </script>
